@@ -21,6 +21,7 @@ export default function Component() {
         <button onClick={buttonOnclick}>Actualizar</button>
         <p>Texto input: {text}</p> 
         <div>Texto actualizado: {updated}</div>
+        <div>Bienvenido a los cambios</div>
     </div>
   )
 }

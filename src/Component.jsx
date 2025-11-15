@@ -17,6 +17,7 @@ export default function Component() {
 
   return (
     <div>
+        <p>Aprendemos a crear react y GIT</p>
         <input type="text" value={text} onChange={textOnChange} /> 
         <button onClick={buttonOnclick}>Actualizar</button>
         <p>Texto input: {text}</p> 
